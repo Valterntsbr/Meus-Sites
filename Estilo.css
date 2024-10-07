@@ -37,6 +37,7 @@ header {
     background-repeat: no-repeat; 
     background-position: center center; 
     background-size: cover; 
+    Backgroud-color: gray;
 }
 .bodyI {
     margin: auto;  
