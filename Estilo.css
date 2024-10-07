@@ -33,11 +33,7 @@ header {
 }
 .bodyp {
     margin: auto;  
-    background-image: url("imagens/fundo1.jpg");
-    background-repeat: no-repeat; 
-    background-position: center center; 
-    background-size: cover; 
-    Backgroud-color: gray;
+    Backgroud-color: blue;
 }
 .bodyI {
     margin: auto;  
