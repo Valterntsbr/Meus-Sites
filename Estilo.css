@@ -1,0 +1,303 @@
+:root {
+    --cor-1: #25255f;
+    --cor-2: #2c439b;
+    --cor-3: #dfa0c8;
+    --cor-4: #33c7f7;
+  }
+  
+
+header {
+    text-align: center;
+    background-color: var(--cor-4);
+    margin: 0px;
+    padding: 10px;
+    font-size: bold;
+}
+.header {
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    font-size: bold;
+}
+.rodapep {
+    background-color: var(--cor-4);
+    margin: 0px;
+    padding: 0px 180px;
+    font-size: bold;
+    clear: both;
+}    
+
+.body {
+    margin: auto;
+    background-color: var(--cor-1);                                                                      
+}
+.bodyp {
+    margin: auto;  
+    background-image: url("imagens/fundo1.jpg");
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover; 
+}
+.bodyI {
+    margin: auto;  
+    background-image: url("imagens/fundo2.jpg");
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover; 
+}
+.bodyS {
+    margin: auto;  
+    background-image: url("imagens/fundo3.jpg");
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover; 
+}
+.bodyV {
+    margin: auto;  
+    background-image: url("imagens/fundo4.jpg");
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover; 
+}
+a {
+    text-decoration: none;
+    font-size: bold;
+}
+.menu{
+    background-color: var(--cor-1);
+    color: var(--cor-4);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.menu:hover{
+    color: var(--cor-4);
+    background-color: var(--cor-2);
+}
+.titulos {
+    font-size: 20px;
+    color: var(--cor-4);
+    clear: both;
+}
+.vermais  input[type="button"]{
+    background-color: var(--cor-1);
+    color: var(--cor-3);
+    float: right;
+    margin: 5;
+}
+.vermais input[type="button"]:hover {
+    background-color: var(--cor-4);
+    color: var(--cor-1);
+
+}
+.img {
+    margin: 17px;
+    border: 2px solid black;
+    border-radius: 0px 0px 10px 10px;
+    float: left;
+    background-color: var(--cor-1);
+    filter: grayscale(100%);
+    color: var(--cor-4);
+}
+.img:hover {
+    filter: grayscale(0%);
+    box-shadow: 10px 15px 20px red;
+    color: var(--cor-4);
+}
+.menuhome {
+    color: black;
+    font-size: 40px;
+}
+
+.menuhome:hover {
+    background-image: url(Gif/fogo2.gif);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.menuhomep {
+    background-image: url(Gif/fogo2.gif);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.p1 {
+    padding: 0px 2px 0px 5px;
+}
+.clear {
+    clear: both;
+}
+.textorodape {
+    float: left;
+    font-size: 10px;
+    margin: 5px 15px;
+    padding: 10px;
+    text-align: left;
+    width: 264px;
+    height: auto;
+}
+.t {
+    margin: 0px 0px 0px 50px;
+}
+.box {
+    width: 300px;
+    right: auto;
+    margin: 0px 20px 20px 20px;
+    padding: 10px;
+    border: 1px solid var(--cor-2);
+    border-radius: 0px 0px 30px 30px;
+    float: left;
+    backdrop-filter: blur(10px);
+    color: var(--cor-4);
+}
+.atos {
+    background-image: url(Gif/fogo2.gif);
+    background-size: cover;
+    background-position: left;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;    
+}
+.t1 {
+    font-size: 25px;
+    color: var(--cor-4);
+}
+.menurodape{
+    background-color: var(--cor-1);
+    color: var(--cor-4);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;  
+}
+.menurodape:hover {
+    color: var(--cor-4);
+    background-color: var(--cor-2);
+}
+.botao input[type="button"]{
+    color: var(--cor-4);
+    background-color: var(--cor-1);
+    padding: 15px;
+    margin: 10;
+    border-radius: 50px;
+}
+.botao input[type="button"]:hover {
+    color: var(--cor-1);
+    background-color: var(--cor-4);
+    box-shadow: 10px 10px 20px red;
+}
+.img2 {
+    margin: 17px;
+    border: 2px solid black;
+    border-radius: 0px 0px 10px 10px;
+    float: left;
+    background-color: var(--cor-1);
+    filter: grayscale(100%);
+    color: var(--cor-4);
+}
+.img2:hover {
+    filter: grayscale(0%);
+    box-shadow: 10px 15px 20px red;
+    color: var(--cor-4);
+}
+.caixap {
+    float: left;
+    width: auto;
+    padding: 15px;
+    backdrop-filter: blur(5px);
+    margin: 10px 10px 100px 10px;
+    border: 1px solid var(--cor-2);
+    border-radius: 30px;
+    font-size: bold;
+}
+#caixa {
+    margin: 10px auto;
+    padding: 10px;
+    width: 900px;
+    clear: both;
+    border: 1px solid var(--cor-2);
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+}
+#caixa2 {
+    margin: auto;
+    padding: 10px;
+    width: 900px;
+    clear: both;
+    background-color: var(--cor-2);
+
+}
+#imagens {
+    clear: both;
+}
+#rodape {
+    background-color: var(--cor-4);
+    margin: 0px;
+    padding: 0px 180px;
+    font-size: bold;
+    clear: both;
+}
+#rodape2 {
+    margin: 0px;
+    padding: 0px 180px;
+    font-size: bold;
+    clear: both;
+}
+#topo {
+    border: 1px solid black;
+    border-radius:30px;
+    color: var(--cor-4);
+    margin: 10px 50px 0px 50px;
+    float: center;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+#topo2 {
+    border: 1px solid black;
+    border-radius:30px;
+    backdrop-filter: blur(5px);
+    color: var(--cor-4);
+    margin: 0px 50px;
+    float: left;
+    text-align: left;
+    width: 90%;
+    padding: 5px 20px;
+}
+#box {
+    margin: 0px 100px;
+}
+#perfil {
+    margin: 100px 400px 100px 400px;    
+}
+h2 {
+    color: var(--cor-4);
+    text-shadow: 10px 15px 20px red;
+}
+img {
+    width: 180px;
+    height: 290px;
+}
+#perfil input[type="text"], input[type="email"], input[type="password"] {
+    border-radius: 10px;
+    padding: 2px;
+    background-color: rgb(64, 71, 94);
+  }
+#perfil p {
+    font-size: 15px;
+    text-shadow: 2px 2px 2px rgb(255, 0, 0)
+}
+#perfil input[type="submit"] {
+    color: var(--cor-4);
+    background-color: var(--cor-1);
+    padding: 15px;
+    margin: 10;
+    border-radius: 50px;
+}
+#perfil input[type="submit"]:hover {
+    color: var(--cor-1);
+    background-color: var(--cor-4);
+    box-shadow: 10px 10px 20px red;
+}    
